@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    background-image: url(../imgs/jio.gif);
+    background-position: contain;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    cursor: -webkit-grab; cursor: grab;
+}
+
+.container{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+
+    height: 600px;
+}
+
+.paw{
+    grid-column: 9/ span 13;
+    grid-row: 7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    background-color: transparent;
+}
+
+.paw img{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 10rem;
+}
+
+.paw button{
+    background-color: transparent;
+    border: none;
+    margin-left: -70px;
+    margin-top: 400px;
+    background-color: transparent;
+    cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.paw a :hover{
+    padding: 5px;
+    cursor: grabbing;
+    background-color: rgba(106, 72, 72, 0.306);
+    box-shadow: 0px 0px 50px 20px;
+    color: rgba(103, 77, 77, 0.376);
+}
+
